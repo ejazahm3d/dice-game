@@ -34,7 +34,7 @@ btnRoll = document.querySelector(".btn-roll").addEventListener("click", () => {
   //2. Making the btn visible
   let diceDOM = document.querySelector(".dice");
   diceDOM.style.display = "block";
-  diceDOM.src = `dice-${dice}.png`;
+  diceDOM.src = `./img/dice-${dice}.png`;
 
   //3 update the score if the number is NOT 1
   if (dice !== 1) {
